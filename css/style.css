@@ -132,9 +132,17 @@ background-position: left bottom, right 1px bottom;
 #bottom_border {
   position: relative;
 margin: 0 auto;
-background-repeat: repeat-y;
 width: 1086px;
 background-image: url("../images/left_border_light.png"), url("../images/right_border_light.png");
+
+background-repeat: repeat-y, repeat-y;
 background-position: left top, right 2px top;
 
+}
+
+#border_top {
+width : 1089px;
+margin-left: -15px;
+background-image: url("../images/border_light.png");
+height: 14px;
 }
