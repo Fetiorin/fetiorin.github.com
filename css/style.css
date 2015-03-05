@@ -1,6 +1,7 @@
 
 body {
-   font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Geneva;
+   font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans',
+  "Garuda", "Malayalam", Arial, sans-serif;
    min-width: 1135px;
 }
 
