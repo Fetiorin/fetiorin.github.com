@@ -85,7 +85,7 @@ right: 90px;
 
 .main_top {
 width: 1060px;
-height: 1400px;
+padding-bottom: 20px;
 position:relative;
 margin-top: -260px;
 background-image: url("../images/darkbgm.png");
@@ -145,4 +145,85 @@ width : 1089px;
 margin-left: -15px;
 background-image: url("../images/border_light.png");
 height: 14px;
+}
+
+#bot_border {
+  position: relative;
+  z-index: -2;
+width : 1106px;
+margin: 0 auto;
+margin-top: -45px;
+background-image: url("../images/bot_border.png");
+height: 92px;
+
+}
+
+
+.button {
+  margin: 0 3px;
+}
+#first {
+  display: block;
+  width: 41px;
+  height: 47px;
+  float: left;
+  background-image: url("../images/buttons_sprite.png");
+  background-position: -1px -1px;
+}
+
+#prev {
+  display: block;
+  width: 41px;
+  height: 47px;
+  float: left;
+  background-image: url("../images/buttons_sprite.png");
+  background-position: -55px -1px;
+}
+
+#circle {
+  display: block;
+  width: 25px;
+  height: 47px;
+  float: left;
+  margin: 0 7px;
+  background-image: url("../images/buttons_sprite.png");
+  background-position: -114px -1px;
+}
+
+#next{
+  display: block;
+  width: 41px;
+  height: 47px;
+  float: left;
+  background-image: url("../images/buttons_sprite.png");
+  background-position: -155px -1px;
+}
+
+#last{
+  display: block;
+  width: 41px;
+  height: 47px;
+  float: left;
+  background-image: url("../images/buttons_sprite.png");
+  background-position: -207px -1px;
+}
+
+.button:hover {
+ background-position-y: -50px !important;
+}
+
+
+.button:hover {
+ background-position-y: -50px !important;
+}
+
+.button:active {
+ background-position-y: -100px !important;  
+}
+
+#navigate {
+  position: :relative;
+  margin: 0 auto;
+  margin-top: 25px;
+  width: 227px;
 }
