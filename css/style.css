@@ -99,7 +99,7 @@ background-position: 5px bottom;
 }
 .main_bottom {
   width: 1060px;
-height: 1000px;
+padding-bottom: 35px;
 position:relative;
 background-image: url("../images/lightbgm.png");
 background-position: 5px top;
