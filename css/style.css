@@ -255,3 +255,8 @@ box-shadow: 0 0 7px #684823;
   width:300px;
   height:250px;
 }
+
+#disqus_thread {
+  width: 640px;
+  margin-top: 10px;
+}
