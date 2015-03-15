@@ -4,10 +4,10 @@
     <title>Your awesome title</title>
     <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
 </description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 15 Mar 2015 22:03:45 +0200</pubDate>
-    <lastBuildDate>Sun, 15 Mar 2015 22:03:45 +0200</lastBuildDate>
+    <link>http://fetiorin.github.io/</link>
+    <atom:link href="http://fetiorin.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sun, 15 Mar 2015 22:09:14 +0200</pubDate>
+    <lastBuildDate>Sun, 15 Mar 2015 22:09:14 +0200</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -15,8 +15,8 @@
         <description>
 </description>
         <pubDate>Mon, 23 Feb 2015 10:05:53 +0200</pubDate>
-        <link>http://localhost:4000/ru/comics/87</link>
-        <guid isPermaLink="true">http://localhost:4000/ru/comics/87</guid>
+        <link>http://fetiorin.github.io/ru/comics/87</link>
+        <guid isPermaLink="true">http://fetiorin.github.io/ru/comics/87</guid>
         
         
         <category>jekyll</category>
@@ -30,8 +30,8 @@
         <description>
 </description>
         <pubDate>Sat, 14 Feb 2015 00:59:49 +0200</pubDate>
-        <link>http://localhost:4000/ru/comics/86</link>
-        <guid isPermaLink="true">http://localhost:4000/ru/comics/86</guid>
+        <link>http://fetiorin.github.io/ru/comics/86</link>
+        <guid isPermaLink="true">http://fetiorin.github.io/ru/comics/86</guid>
         
         
         <category>jekyll</category>
@@ -45,8 +45,8 @@
         <description>
 </description>
         <pubDate>Sat, 17 Jan 2015 15:28:13 +0200</pubDate>
-        <link>http://localhost:4000/ru/comics/85</link>
-        <guid isPermaLink="true">http://localhost:4000/ru/comics/85</guid>
+        <link>http://fetiorin.github.io/ru/comics/85</link>
+        <guid isPermaLink="true">http://fetiorin.github.io/ru/comics/85</guid>
         
         
         <category>jekyll</category>
@@ -60,8 +60,8 @@
         <description>
 </description>
         <pubDate>Mon, 05 Jan 2015 11:23:11 +0200</pubDate>
-        <link>http://localhost:4000/ru/comics/84</link>
-        <guid isPermaLink="true">http://localhost:4000/ru/comics/84</guid>
+        <link>http://fetiorin.github.io/ru/comics/84</link>
+        <guid isPermaLink="true">http://fetiorin.github.io/ru/comics/84</guid>
         
         
         <category>jekyll</category>
@@ -75,8 +75,8 @@
         <description>
 </description>
         <pubDate>Sun, 02 Nov 2014 07:17:49 +0200</pubDate>
-        <link>http://localhost:4000/ru/comics/83</link>
-        <guid isPermaLink="true">http://localhost:4000/ru/comics/83</guid>
+        <link>http://fetiorin.github.io/ru/comics/83</link>
+        <guid isPermaLink="true">http://fetiorin.github.io/ru/comics/83</guid>
         
         
         <category>jekyll</category>
@@ -90,8 +90,8 @@
         <description>
 </description>
         <pubDate>Sun, 19 Oct 2014 01:19:30 +0300</pubDate>
-        <link>http://localhost:4000/ru/comics/82</link>
-        <guid isPermaLink="true">http://localhost:4000/ru/comics/82</guid>
+        <link>http://fetiorin.github.io/ru/comics/82</link>
+        <guid isPermaLink="true">http://fetiorin.github.io/ru/comics/82</guid>
         
         
         <category>jekyll</category>
@@ -105,8 +105,8 @@
         <description>
 </description>
         <pubDate>Wed, 04 Jun 2014 01:14:10 +0300</pubDate>
-        <link>http://localhost:4000/ru/comics/81</link>
-        <guid isPermaLink="true">http://localhost:4000/ru/comics/81</guid>
+        <link>http://fetiorin.github.io/ru/comics/81</link>
+        <guid isPermaLink="true">http://fetiorin.github.io/ru/comics/81</guid>
         
         
         <category>jekyll</category>
@@ -120,8 +120,8 @@
         <description>
 </description>
         <pubDate>Sat, 31 May 2014 23:03:49 +0300</pubDate>
-        <link>http://localhost:4000/ru/comics/80</link>
-        <guid isPermaLink="true">http://localhost:4000/ru/comics/80</guid>
+        <link>http://fetiorin.github.io/ru/comics/80</link>
+        <guid isPermaLink="true">http://fetiorin.github.io/ru/comics/80</guid>
         
         
         <category>jekyll</category>
@@ -135,8 +135,8 @@
         <description>
 </description>
         <pubDate>Sun, 27 Apr 2014 01:48:06 +0300</pubDate>
-        <link>http://localhost:4000/ru/comics/79</link>
-        <guid isPermaLink="true">http://localhost:4000/ru/comics/79</guid>
+        <link>http://fetiorin.github.io/ru/comics/79</link>
+        <guid isPermaLink="true">http://fetiorin.github.io/ru/comics/79</guid>
         
         
         <category>jekyll</category>
@@ -150,8 +150,8 @@
         <description>
 </description>
         <pubDate>Sat, 19 Apr 2014 23:58:00 +0300</pubDate>
-        <link>http://localhost:4000/ru/comics/78</link>
-        <guid isPermaLink="true">http://localhost:4000/ru/comics/78</guid>
+        <link>http://fetiorin.github.io/ru/comics/78</link>
+        <guid isPermaLink="true">http://fetiorin.github.io/ru/comics/78</guid>
         
         
         <category>jekyll</category>
