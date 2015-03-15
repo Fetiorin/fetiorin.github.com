@@ -1,8 +1,0 @@
----
-layout: post
-title:  "39"
-date: 27-10-2013 18:45:07
-categories: jekyll update
-language: 'ru'
-image: 039.png
----

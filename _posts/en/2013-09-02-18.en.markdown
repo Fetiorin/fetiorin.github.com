@@ -1,8 +1,0 @@
----
-layout: post
-title:  "18"
-date: 02-09-2013 16:53:39
-categories: jekyll update
-language: 'en'
-image: 018.png
----

@@ -1,8 +1,0 @@
----
-layout: post
-title:  "56"
-date: 18-12-2013 23:39:27
-categories: jekyll update
-language: 'ru'
-image: 056.png
----

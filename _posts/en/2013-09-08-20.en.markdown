@@ -1,8 +1,0 @@
----
-layout: post
-title:  "20"
-date: 08-09-2013 20:27:39
-categories: jekyll update
-language: 'en'
-image: 020.png
----
