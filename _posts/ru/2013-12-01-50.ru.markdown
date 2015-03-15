@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "50"
+date: 01-12-2013 18:03:14
+categories: jekyll update
+language: 'ru'
+image: 050.png
+---

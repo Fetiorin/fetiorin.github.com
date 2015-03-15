@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+
+
+
+  
+
+      <div id="header_center">
+      <div id="header"><div id="menu">
+      
+        {% if page.language == "en" %}
+    <a href="{{ site.url }}">Main</a>
+      <a href="{{ site.url }}/archive">Archive</a> 
+    
+       {% endif %}
+        {% if page.language == "ru" %}
+       <a href="{{ site.url }}/ru">Главная</a>
+      <a href="{{ site.url }}/ru/archive">Архив</a> 
+      {% endif %}
+      </div></div>
+      </div>
+<div id="top_border">
+<div class="main_top absolute center">
+
+      <div class="comics_block">
+        <div class="content_top ">
+        {{ content }}
+      </div>
+</div>
+</div>
+</div>
+
+<div id="bottom_border">
+  <div class="main_bottom absolute center">
+    <div id="border_top"></div>
+    {% if page.image %}
+    <div id="author_comment">
+      
+      <h4>Author comment:</h4>
+      <p>
+      {{ page.content | markdownify }}
+      </p>
+    </div>
+    {% endif %}
+    
+    <div class= "disqus_center" id="disqus_thread"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = 'wimu';
+    
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+        
+        <script>
+        $.getJSON("http://ip-api.com/json/?fields=2", function(data) {
+          country = ""
+            $.each(data, function(k, v) {
+                country = v;
+            });
+            v = country;
+          if (v == "UA" || v == "RU" || v == "BY" || v == "KZ" || v == "KG") {
+            if (window.location.href != "http://localhost:4000/ru/") window.location.replace("http://localhost:4000/ru")
+          }
+        });
+        </script>
+ 
+ 
+  </div>
+
+</div>
+<div id="bot_border"></div>
+
+
+      
+
+  </body>
+
+</html>

@@ -1,0 +1,69 @@
+---
+layout: default
+---
+
+
+ <div class="comics_block">
+        <div class="centering"><div id="title">‘Where is My Umbrella?’ #{{ page.title }}</div></div>
+        <img src="/images/comics/{{ page.image }}" class ="comics center">
+        <div id="navigate">
+        {% for p in site.posts reversed %}
+            {% if p.title == page.title and p.language == page.language %}
+              <a id="first" class="disabled" ></a>
+              {% break %}
+            {% endif %}
+            {% if p.language == page.language %}
+             <a href="{{ p.url }}" id="first" class="button" ></a>
+             {% break %}
+            {% endif %}
+        {% endfor %}
+
+
+        {% assign f = false %}
+        {% for p in site.posts %}
+            {% if f == true and p.language == page.language %} 
+                <a href="{{ p.url }}" id="prev" class="button"></a>
+                {% break %}
+            {% endif %}
+        {% if p.title == page.title and page.language == p.language %} 
+            {% assign f = true %}
+        {% endif %}
+        {% if forloop.last == true %}
+         <a id="prev" class="disabled"></a> 
+        {% endif %}
+        {% endfor %}
+
+        <a id="circle"></a>
+
+        {% assign f = false %}
+        {% for p in site.posts reversed %}
+            {% if f == true and p.language == page.language %} 
+                <a href="{{ p.url }}" id="next" class="button"></a>
+                {% break %}
+            {% endif %}
+        {% if p.title == page.title and page.language == p.language %} 
+            {% assign f = true %}
+        {% endif %}
+        {% if forloop.last == true %}
+         <a id="next" class="disabled"></a> 
+        {% endif %}
+        {% endfor %}
+        
+    
+        {% for p in site.posts %}
+            {% if p.title == page.title and p.language == page.language %}
+              <a id="last" class="disabled" ></a>
+              {% break %}
+            {% endif %}
+            {% if p.language == page.language %}
+             <a href="{{ p.url }}" id="last" class="button" ></a>
+             {% break %}
+            {% endif %}
+        {% endfor %}
+
+        </div>
+      </div>
+    
+ 
+
+

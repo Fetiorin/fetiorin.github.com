@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "82"
+date: 19-10-2014 01:19:30
+categories: jekyll update
+language: 'ru'
+image: 082.png
+---

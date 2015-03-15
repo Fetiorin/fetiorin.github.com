@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "74"
+date: 15-03-2014 01:32:10
+categories: jekyll update
+language: 'ru'
+image: 074.png
+---

@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "25"
+date: 22-09-2013 16:05:07
+categories: jekyll update
+language: 'ru'
+image: 025.png
+---
