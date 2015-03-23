@@ -436,3 +436,13 @@ opacity: 0.55;
 .c-vote:hover {
   opacity : 1;
 }
+
+.footer {
+  width: 1060px;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 12px;
+  opacity: 0.6;
+  margin-top: 20px;
+  margin-bottom: 10px
+}
