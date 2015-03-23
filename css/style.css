@@ -316,8 +316,7 @@ max-width: 1000px;
   display: inline-block;
   position: :relative;
   margin: 0 auto;
-  margin-top: 25px;
-  margin-bottom: 20px;  
+  
   width: 227px;
 }
 
@@ -394,4 +393,46 @@ margin-top: 10px;
 .comics-text-bottom {
   margin-top: 10px;
   margin-bottom: 15px;
+}
+
+.date-p {
+  font-size: 12px;
+  opacity: 0.8;
+}
+
+.navigate-plus {
+  position: relative;
+width: 600px;
+height: 50px;
+margin: 0 auto;
+margin-top: 5px;
+  margin-bottom: 20px;  
+}
+
+.navigate-plus .uptolike-buttons {
+  position: absolute;
+right: 0px;
+top: 7px;
+opacity: 0.7;
+  transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+}
+
+.navigate-plus .uptolike-buttons:hover {
+  opacity: 1;
+}
+
+.c-vote {
+  position: absolute;
+left: -20px;
+top: 7px;
+opacity: 0.55;
+  transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+}
+
+.c-vote:hover {
+  opacity : 1;
 }
