@@ -53,15 +53,6 @@
   ga('send', 'pageview');
 
 </script>
-
-
-<script type="text/javascript" src="//vk.com/js/api/openapi.js?116"></script>
-
-<script type="text/javascript">
-  VK.init({apiId: 4855964, onlyWidgets: true});
-</script>
-
-
 </head>
 
 
@@ -251,14 +242,24 @@ if (!w.__utlWdgt ) {
 
     
 
-<!-- Put this script tag to the <head> of your page -->
-
-
-<!-- Put this div tag to the place, where the Comments block will be -->
-<div id="vk_comments"></div>
+<div id="hcomments" style="width: 660px; margin: 0 auto; margin-top: 20px; background-color: rgba(255, 255, 255, 0.35); border-radius: 2px; padding: 5px;">
+<div id="hypercomments_widget"></div>
 <script type="text/javascript">
-VK.Widgets.Comments("vk_comments", {limit: 10, width: "665", attach: "*"});
+_hcwp = window._hcwp || [];
+_hcwp.push({widget:"Stream", widget_id: 27592});
+(function() {
+if("HC_LOAD_INIT" in window)return;
+HC_LOAD_INIT = true;
+var lang = ("ru").substr(0, 2).toLowerCase();
+var hcc = document.createElement("script"); hcc.type = "text/javascript"; hcc.async = true;
+hcc.src = ("https:" == document.location.protocol ? "https" : "http")+"://w.hypercomments.com/widget/hc/27592/"+lang+"/widget.js";
+var s = document.getElementsByTagName("script")[0];
+s.parentNode.insertBefore(hcc, s.nextSibling);
+})();
 </script>
+<a href="http://hypercomments.com" class="hc-link" title="comments widget">comments powered by HyperComments</a>
+</div>
+
 
 
 
