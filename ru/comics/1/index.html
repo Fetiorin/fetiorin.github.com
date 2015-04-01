@@ -686,23 +686,16 @@ if (!w.__utlWdgt ) {
 
     
 
-<div id="hcomments" style="width: 650px; margin-left: 20px; margin-top: 20px; background-color: rgba(255, 255, 255, 0.35); border-radius: 2px; padding: 5px;">
-<div id="hypercomments_widget"></div>
+
+<div style="width: 665px; margin-left: 20px; margin-top: 20px; -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);"> 
+<div id="vk_comments"  ></div>
 <script type="text/javascript">
-_hcwp = window._hcwp || [];
-_hcwp.push({widget:"Stream", widget_id: 27592});
-(function() {
-if("HC_LOAD_INIT" in window)return;
-HC_LOAD_INIT = true;
-var lang = ("ru").substr(0, 2).toLowerCase();
-var hcc = document.createElement("script"); hcc.type = "text/javascript"; hcc.async = true;
-hcc.src = ("https:" == document.location.protocol ? "https" : "http")+"://w.hypercomments.com/widget/hc/27592/"+lang+"/widget.js";
-var s = document.getElementsByTagName("script")[0];
-s.parentNode.insertBefore(hcc, s.nextSibling);
-})();
+VK.Widgets.Comments("vk_comments", {limit: 10, width: "665", attach: "*"});
 </script>
-<a href="http://hypercomments.com" class="hc-link" title="comments widget">comments powered by HyperComments</a>
 </div>
+
 
 
 
