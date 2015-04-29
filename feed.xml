@@ -6,9 +6,39 @@
 </description>
     <link>http://whereismyumbrella.com/</link>
     <atom:link href="http://whereismyumbrella.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 19 Apr 2015 21:31:57 +0300</pubDate>
-    <lastBuildDate>Sun, 19 Apr 2015 21:31:57 +0300</lastBuildDate>
+    <pubDate>Wed, 29 Apr 2015 08:30:21 +0300</pubDate>
+    <lastBuildDate>Wed, 29 Apr 2015 08:30:21 +0300</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>36</title>
+        <description>
+</description>
+        <pubDate>Wed, 29 Apr 2015 14:12:52 +0300</pubDate>
+        <link>http://whereismyumbrella.com/comics/36</link>
+        <guid isPermaLink="true">http://whereismyumbrella.com/comics/36</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>35</title>
+        <description>&lt;p&gt;Comments are welcome ^-^&lt;/p&gt;
+</description>
+        <pubDate>Wed, 29 Apr 2015 10:41:29 +0300</pubDate>
+        <link>http://whereismyumbrella.com/comics/35</link>
+        <guid isPermaLink="true">http://whereismyumbrella.com/comics/35</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
     
       <item>
         <title>34</title>
@@ -122,36 +152,6 @@
         <pubDate>Thu, 02 Apr 2015 20:06:39 +0300</pubDate>
         <link>http://whereismyumbrella.com/comics/27</link>
         <guid isPermaLink="true">http://whereismyumbrella.com/comics/27</guid>
-        
-        
-        <category>jekyll</category>
-        
-        <category>update</category>
-        
-      </item>
-    
-      <item>
-        <title>26</title>
-        <description>
-</description>
-        <pubDate>Tue, 31 Mar 2015 19:13:00 +0300</pubDate>
-        <link>http://whereismyumbrella.com/comics/26</link>
-        <guid isPermaLink="true">http://whereismyumbrella.com/comics/26</guid>
-        
-        
-        <category>jekyll</category>
-        
-        <category>update</category>
-        
-      </item>
-    
-      <item>
-        <title>88</title>
-        <description>
-</description>
-        <pubDate>Sat, 28 Mar 2015 20:47:34 +0200</pubDate>
-        <link>http://whereismyumbrella.com/ru/comics/88</link>
-        <guid isPermaLink="true">http://whereismyumbrella.com/ru/comics/88</guid>
         
         
         <category>jekyll</category>
